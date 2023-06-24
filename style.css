@@ -145,3 +145,26 @@ img.hero-image {
   align-self: flex-end;
   width: 630px;
 }
+
+.sign-up-section{
+  padding: 50px 150px 50px 150px; 
+}
+
+.sign-up-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  color: white;
+  border: 1px solid #3882F6;
+  border-radius: 8px;
+  height: 100px;
+
+ 
+}
+.sign-up-container .sign-up-button button{
+  background-color: #3882F6;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+}
