@@ -11,10 +11,16 @@ body {
   color: white;
 }
 
-.hero{
+.hero {
   display: flex;
   flex-direction: column;
+  height: 500px;
 
+}
+
+.header,
+.hero-content {
+  margin-right: 200px;
 }
 
 .header {
@@ -23,9 +29,9 @@ body {
   padding: 16px;
 }
 
-.logo img {
-  height: 50px;
-
+.logo {
+  font-size: 24px;
+  color: #F9FAF8
 }
 
 .links ul {
@@ -33,12 +39,55 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  gap: 8px;
+  gap: 20px;
 }
 
 .links ul li a {
   background: white;
   text-decoration: none;
-  color:white;
+  color: white;
   background-color: #1F2937;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.hero-content .text h1 {
+  font-weight: bold;
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+.hero-content .text p {
+  font-size: 18px;
+  color: #E5E7EB
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 36px;
+  border-radius: 8px;
+
+}
+
+.hero-content button.sign-up-button {
+
+  background: rgb(48, 134, 168);
+  border: 1px solid rgb(48, 134, 168);
+  color: white;
+  font-weight: bold;
+}
+
+img.hero-image {
+  width: 550px;
+  height: 300px;
+}
+
+.text {
+  width: 450px;
 }
