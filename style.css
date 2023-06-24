@@ -89,6 +89,7 @@ img.hero-image {
 
 .information {
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .information .title h1 {
@@ -122,4 +123,25 @@ img.hero-image {
 .pictures p {
   width: 150px;
   margin-top: 10px;
+}
+.quote{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  background-color: #E5E7EB;
+  color:#1F2937;
+  font-size: 36px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.quote .text{
+  width: 820px;
+  font-style: italic;
+}
+.author{
+  font-weight: bold;
+  align-self: flex-end;
+  width: 630px;
 }
